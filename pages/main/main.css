@@ -1,0 +1,112 @@
+
+.header h1 {
+    letter-spacing: 1px;
+}
+
+.header button {
+    font-size: .8rem;
+}
+
+.header>div {
+    gap: 6rem;
+    width: max-content;
+}
+
+.bg-effect .bg h1 {
+    font-size: 10rem !important;
+    font-weight: 700;
+    text-shadow: -1px 1px 0 #e1e1e1,
+        1px 1px 0 #e1e1e1,
+        1px -1px 0 #e1e1e1,
+        -1px -1px 0 #e1e1e1;
+}
+.bg{
+    bottom: 3rem !important;
+    z-index: -1;
+}
+
+.bg-effect .f-oswald{
+    font-size: 60px;
+}
+.news-card img{
+    width: 18rem;
+}
+.news-card{
+    width: 18rem;
+
+}
+.news-card .card-content{
+    background-color: black;
+    color: white;
+    /* font-weight: 100 !important; */
+    /* padding: .3rem; */
+    
+}
+.latest-news{
+    width: max-content;
+    margin: auto;
+}
+.heros-list .inner{
+    /* object-fit: fill; */
+    /* overflow: hidden; */
+    width: 18rem;
+    height: 25rem;
+    /* transform: skew(20deg); */
+    background-image: url(./public/valo.png);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    /* left: 50px; */
+    /* position: absolute;
+    top: 0; */
+    /* height: 360px; */
+    /* width: 100%; */
+    -ms-transform: skew(15deg,0deg); 
+    -webkit-transform: skew(15deg,0deg); 
+    transform: skew(15deg,0deg);
+}
+.heros-list div{
+    margin-left: -5rem;
+    position: relative;
+    -webkit-box-flex: 0;
+    /* height: 540px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./public/valo.png)  top no-repeat;
+    background-size: cover;
+    clip-path: polygon(24% 0, 100% 0, 76% 100%, 0% 100%);
+    width: 18rem;
+    height: 20rem;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+    /* position: absolute; */
+    /* margin-left: -10%; */
+    /* min-height: 360px; */
+    /* overflow: hidden; */
+    /* width: 76.5%; */
+    /* -ms-transform: skew(-15deg,0deg); IE 9 */
+    /* -webkit-transform: skew(-15deg,0deg); Safari */
+    /* transform: skew(-15deg,0deg); */
+
+}
+.hero-list::after{
+    content: '';
+    background: #0079C1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out 0s;
+}
+.hero-list img{
+    width: 18rem;
+    transform: skew(-20deg);
+    /* position: absolute; */
+}
