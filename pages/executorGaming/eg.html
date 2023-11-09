@@ -5,8 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="eg.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -21,7 +28,7 @@
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand m-0" href="#"><img src="./public/link@2x.png" alt="Bootstrap" width="90px"></a>
+            <a class="navbar-brand m-0" href="#"><img src="../public/link@2x.png" alt="Bootstrap" width="90px"></a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
@@ -42,21 +49,21 @@
                         <a class="nav-link" href="#">NEWSROOM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">PARTNERS</a>
+                        <a class="nav-link" href="#">PARTNERS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">CONTACT US</a>
+                        <a class="nav-link" href="#">CONTACT US</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
                         <ul class="navbar-nav d-flex flex-row gap-3">
                             <li>
-                                <a href="#"><img src="./public/svg1.svg" alt=""></a>
+                                <a href="#"><img src="../public/svg1.svg" alt=""></a>
                             </li>
                             <li>
-                                <a href="#"><img src="./public/svg2.svg" alt=""></a>
+                                <a href="#"><img src="../public/svg2.svg" alt=""></a>
                             </li>
                             <li>
-                                <a href="#"><img src="./public/svg3.svg" alt=""></a>
+                                <a href="#"><img src="../public/svg3.svg" alt=""></a>
                             </li>
                         </ul>
                     </li>
@@ -65,6 +72,69 @@
             </div>
         </div>
     </nav>
+
+
+
+
+
+
+
+    <main class="d-flex flex-column gap-5">
+
+
+        <!-- <section class="eg"> -->
+        <section class="heading d-flex justify-content-center align-items-center w-100 my-5">
+            <div class="text-white ">
+                <!-- <img class="position-absolute " src="../public/headphones.png" alt="" width="100%" style="z-index: -1;"> -->
+                <!-- <div> -->
+                <h1 class="align-self-start">Executor Gaming </h1>
+                <p class="fw-bold">
+                    Executor Gaming is a platform with the sole aim of powering esports <br> experiences.
+                </p>
+                <!-- </div> -->
+            </div>
+            <!-- </section> -->
+        </section>
+        <section class="gp-ip text-black my-5">
+            <div class="d-flex gap-5 align-items-center justify-content-center">
+                <div class="desc text-end">
+                    <h1>
+                        Gaming <br> Tournament IPs
+                    </h1>
+                    <p>A combination of competitive and entertaining esports and
+                        tournament IPs designed to engage with gaming communities, we
+                        understand the immense value these communities bring to the
+                        esports landscape.
+                    </p>
+                    <p>
+                        Through our esports IPs, we provide a platform for both aspiring
+                        and seasoned gamers to showcase their skills, battle it out on the
+                        virtual stage, and earn recognition among their peers. These
+                        tournaments are meticulously organized, featuring thrilling
+                        matches, intense rivalries, and high-stakes competitions that
+                        captivate players and spectators alike.
+                    </p>
+                </div>
+                <div>
+                    <img src="../public/team.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="pg-showdown d-flex justify-content-center my-5">
+            <div class="text-center">
+                <p class="fs-2">Pro Gaming Showdoun</p>
+                <img src="../public/pg-showdown.png" alt="">
+                <p>Pro Gaming Showdown is a unique concept where your favorite esports player will be bidding for you!
+                    Yes, you heard that right. Once you register, you will be part of the talent pool which will be made
+                    available to the 8 captains who will be bidding for the most desired players to be a part of their
+                    team. Each team will have a limited budget so they will have to spend their currency wisely in order
+                    to get the best talent! The selected players get to play alongside their captains in a high-stakes
+                    tournament where the winner takes it all!</p>
+            </div>
+        </section>
+
+
+    </main>
 
 
 
@@ -95,7 +165,7 @@
         </div>
         <!-- </div> -->
         <div>
-            <div class="footer-content d-flex ">
+            <div class="footer-content d-flex justify-content-center flex-wrap">
                 <section class="brand">
                     <div class="logo">
                         <a href="#">
@@ -134,13 +204,13 @@
 
                     </div>
                 </section>
-                <section class="mailing-list px-5">
-                    <h3 class="text-light">Join our mailing list</h3>
-                    <p class="text-light">Be a part of the Executor family. <br>
+                <section class="mailing-list ">
+                    <h3 class="text-light text-break text-wrap">Join our mailing list</h3>
+                    <p class="text-light text-break text-wrap">Be a part of the Executor family. <br>
                         Get the latest news and updates.
                     </p>
-                    <form action="#">
-                        <input class="p-2 w-100" type="email" placeholder="Your Email" name="" id="">
+                    <form class="d-flex flex-column align-items-start" action="#">
+                        <input class="p-2 w-auto" type="email" placeholder="Your Email" name="" id="">
                         <button type="submit" href="#">
                             <img class="mt-1  ms-3" src="./public/arrow.svg" alt="">
                         </button>
@@ -149,14 +219,10 @@
             </div>
             <div class="hr"></div>
             <div class="copyright m-auto my-3">
-                <p>© 2023, Executor Esports. All Rights Reserved.</p>
+                <p class="text-break text-center">© 2023, Executor Esports. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
-
-
-
-
 
 
 

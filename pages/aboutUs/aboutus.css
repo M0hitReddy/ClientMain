@@ -1,0 +1,11 @@
+.stats .stat{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.stats > div > div{
+    /* font-weight: 600 !important; */
+    margin: 0 3rem;
+}
+
+
+

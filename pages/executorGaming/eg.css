@@ -1,0 +1,13 @@
+.heading{
+    height: 18.2rem;
+    background: url(../public/headphones.png) center no-repeat;
+    background-size: cover;
+    
+    /* background-size: cover; */
+}
+.gp-ip img, .desc{
+    max-width: 28rem;
+}
+.pg-showdown>div, .pg-showdown img{
+    width: 28rem;
+}
