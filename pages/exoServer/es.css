@@ -12,10 +12,14 @@
 @media only screen and (max-width: 345px) {
     .exo-town img,.exo-town>div>div{
         width: 90%;
-        /* margin-top: 0 !important ; */
+        
     }
     main{
         gap: 1rem !important;
     }
 
 }
+
+
+
+
