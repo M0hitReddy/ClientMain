@@ -227,6 +227,7 @@
 
 }
 
+
 @media screen and (max-width: 765px) {
     /* Adjust styles for tablet layout */
 
@@ -236,7 +237,10 @@
 }
 
 @media screen and (max-width: 354px) {
-    /* Adjust styles for tablet layout */
+    .swiper {
+
+        padding-top: 5rem;
+    }
 
     .news-cards a>div {
         width: 80% !important;

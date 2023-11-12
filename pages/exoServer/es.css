@@ -2,7 +2,10 @@
     width: 30rem;
 }
 
-
+.exo-server>div{
+    width: 90%;
+    margin: auto;
+}
 @media only screen and (max-width: 520px) {
     .exo-town img,.exo-town>div>div{
         width: 20rem;
