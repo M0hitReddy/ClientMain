@@ -153,11 +153,9 @@ button {
 
     .mailing-list {
         transform: none;
-        /* width: 90vw; */
     }
 
     .mailing-list input {
-        /* transfor m: none; */
         width: 100%;
     }
 
